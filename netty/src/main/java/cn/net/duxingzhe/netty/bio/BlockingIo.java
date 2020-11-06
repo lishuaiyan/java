@@ -1,4 +1,4 @@
-package cn.net.duxingzhe.netty;
+package cn.net.duxingzhe.netty.bio;
 
 import java.io.BufferedReader;
 import java.io.IOException;
