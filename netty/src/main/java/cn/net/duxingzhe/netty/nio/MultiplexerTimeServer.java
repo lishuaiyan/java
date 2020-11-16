@@ -19,7 +19,7 @@ import java.util.Set;
 public class MultiplexerTimeServer implements Runnable {
     private Selector selector;
     private ServerSocketChannel serverSocketChannel;
-    private volatile boolean stop;
+    private volatile boolean stop = false;
 
     /**
      * 初始化多路复用器、绑定监听端口
